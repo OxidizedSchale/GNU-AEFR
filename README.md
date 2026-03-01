@@ -16,7 +16,7 @@
 # 导览：
 # AEFR 目前并不是一个为了讨好所有人而设计的复杂应用。它只是 1102 行直达底层的 Rust 逻辑所构成的一个内核。在计算机的世界里，最短的路径永远是最无敌的！如果你追求的是平庸，请去用 AA；如果你追求的是极致的自由与性能，欢迎来到 AEFR
 
-# AEFR's Eternal Freedom & Rust-rendered
+# AEFR's Eternal Freedom & Rust-rendered（对的，这就是 AEFR 全名，自递归，意思是“AEFR 即永恒自由与 Rust 渲染”）
 非官方的，粉丝制作的，使用rust制造的，性能强劲的多平台多线程蔚蓝档案二次创作编辑器，不使用游戏引擎，使用eGUI库；支持Linux.Android.MacOS.WIndows
 
 现在我们做到了编辑器的效果，能更换背景 能导入 5 个骨骼文件，可以“对话”，骨骼文件可以换表情，可以更改背景音乐
