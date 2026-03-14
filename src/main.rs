@@ -1,6 +1,6 @@
 /*
- * AEFR (AEFR's Eternal Freedom & Rust-rendered)
- * Copyright (C) 2026 OxidizedSchale & AEFR Contributors
+ * GNU:AEFR (GNU's Not Unix:AEFR's Eternal Freedom & Rust-rendered)
+ * Copyright (C) 2026 OxidizedSchale & GNU:AEFR Contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -9,10 +9,9 @@
  *
  * SPDX-License-Identifier: GPL-3.0-or-later
  *
- * Project: GNU:AEFR (GNU's Not Unix:AEFR's Eternal Freedom & Rust-rendered)
  * GitHub: https://github.com/OxidizedSchale/GNU-AEFR
  *
- * 版权所有 (C) 2026 OxidizedSchale & AEFR Contributors
+ * 版权所有 (C) 2026 OxidizedSchale & GNU:AEFR Contributors
  *
  * 本程序是自由软件：您可以自由分发和/或修改它。
  * 它遵循由自由软件基金会（Free Software Foundation）发布的
