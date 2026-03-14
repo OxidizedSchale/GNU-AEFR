@@ -1,6 +1,16 @@
 /*
- * Project: AEFR (AEFR's Eternal Freedom & Rust-rendered)
- * GitHub: https://github.com/OxidizedSchale/AEFR-s-Eternal-Freedom-Rust-rendered
+ * AEFR (AEFR's Eternal Freedom & Rust-rendered)
+ * Copyright (C) 2026 OxidizedSchale & AEFR Contributors
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ *
+ * Project: GNU:AEFR (GNU's Not Unix:AEFR's Eternal Freedom & Rust-rendered)
+ * GitHub: https://github.com/OxidizedSchale/GNU-AEFR
  *
  * 版权所有 (C) 2026 OxidizedSchale & AEFR Contributors
  *
