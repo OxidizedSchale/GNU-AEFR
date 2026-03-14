@@ -33,7 +33,7 @@
  * 5. 调度系统: 自研 "Gentleman Scheduler" (防止计算线程抢占 UI 和音频线程)
  *
  * [跨平台支持 / Cross-Platform]
- * - Windows / Linux / macOS (原生桌面应用)
+ * - Windows | GNU/Linux | macOS (原生桌面应用)
  * - Android Termux (X11/Wayland 环境)
  * - Android APK (原生应用打包)
  *
