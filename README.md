@@ -115,6 +115,15 @@ Android / Termux: 请使用绝对路径，例如 /sdcard/Download/bg.png
 所有的操作结果（成功/失败/可用动画列表）都会实时打印在控制台的 Log 区域，请留意查看
 
 # 但是，在提供帮助构建 GNU:AEFR 时，必须要遵守以下规则
+题外话：若是交叉编译，请先下载Zig，配置好path，装好cargo-zigbuild。随后：
+
+cargo zigbuild --target x86_64-pc-windows-msvc --release
+
+cargo zigbuild --target x86_64-unknown-linux-musl --release
+
+cargo zigbuild --target aarch64-pc-windows-msvc --release  
+
+
 技术栈纯洁性：本项目坚持核心业务逻辑与架构 100% 使用 Rust 实现
 
 原则上拒绝引入任何需要与 C++ 运行时或框架（如 Qt、Unity、Unreal 等）进行复杂交互（JNI/复杂FFI）的 PR，以保持架构的纯粹性和可维护性
