@@ -176,5 +176,4 @@ GNU:AEFR 采用 **图形化** 与 **指令驱动 (Command-Driven)** 相结合的
 ---
 
 ## ✉️ 联系我们
-*   **作者邮箱**: `3997101522@qq.com`
-*   **QQ 群**: `1054276524`
+*   **作者邮箱**: `ExtraShiningWonder@gmail.com`
