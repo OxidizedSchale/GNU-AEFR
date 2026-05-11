@@ -176,5 +176,5 @@ GNU:AEFR은 **그래픽 인터페이스(GUI)** 와 **명령어 기반(Command-Dr
 ---
 
 ## ✉️ 문의하기
-*   **작성자 이메일**: `3997101522@qq.com`
+*   **작성자 이메일**: `ExtraShiningWonder@gmail.com`
 *   **QQ 그룹**: `1054276524`
