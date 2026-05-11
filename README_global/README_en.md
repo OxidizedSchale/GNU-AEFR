@@ -176,5 +176,4 @@ Any `unsafe` block must be based on a justified reason that cannot be achieved v
 ---
 
 ## ✉️ Contact Us
-*   **Author Email**: `3997101522@qq.com`
-*   **QQ Group**: `1054276524`
+*   **Author Email**: `ExtraShiningWonder@gmail.com`
