@@ -2,7 +2,7 @@
 
 # GNA's Not AA : AEFR's Eternal Freedom & Rust-rendered
 
-> 受 GNU 启发而来，不是 GNU 项目，已申请“自由软件基金会自由软件目录”。
+> 受 GNU 启发而来，不是官方 GNU 项目，已申请“自由软件基金会自由软件目录”。
 
 ## 我们的 Rust 纯度比 GNU/Linux 内核高 99.7%!
 
