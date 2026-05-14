@@ -2,7 +2,7 @@
 
 # GNA's Not AA : AEFR's Eternal Freedom & Rust-rendered
 
-> Inspired by GNU, but not a GNU project. Applied for the FSF Free Software Directory.
+> Inspired by GNU, but not an official GNU project. Applied for the FSF Free Software Directory.
 
 ## Our Rust purity is 99.7% higher than the GNU/Linux kernel!
 
