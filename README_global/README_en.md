@@ -2,44 +2,44 @@
 
 # GNA's Not AA : AEFR's Eternal Freedom & Rust-rendered
 
-> Inspired by GNU, but not an official GNU project. Applied for the FSF Free Software Directory.
+> Inspired by GNU, but not an official GNU project. We have applied for inclusion in the "Free Software Foundation Free Software Directory."
 
 ## Our Rust purity is 99.7% higher than the GNU/Linux kernel!
 
-**GNU:AEFR is a free software project embodying the spirit of the GNU Manifesto, dedicated to liberating the creative environment of Kivotos! Distributing software without open-sourcing it is an irresponsible act!**
+**GNA:AEFR is a free software project upholding the spirit of the GNU Manifesto, dedicated to liberating the creative environment of Kivotos! Distributing software without its source code is an irresponsible act!**
 
 ---
 
 ### ​⚖️ License
-This project is distributed under, and only under, the **GPL-3.0** License（Under version 0.8.3).
+This project is and will only be released under the **GPL-3.0** license (for versions prior to 0.8.3).
 
-For versions 0.8.3 and later (including it), only the **AGPL-3.0** license is allowed.
+For version 0.8.3 and beyond, the **AGPL-3.0** license must be used.
 
 ---
 
-## 🧭 The Philosophy of GNU:AEFR
+## 🧭 Navigation: The Philosophy of GNA:AEFR
 
-> GNU:AEFR is not currently a complex application designed to please everyone, as it is not yet a complete release. It is simply a high-performance editor instance composed of pure Rust. **In the world of computing, the shortest path is always the most invincible!** If you seek current compatibility and ease of use, please use AA; if you seek ultimate freedom, extreme performance, and community-driven maintenance, welcome to GNU:AEFR.
+> GNA:AEFR is not currently a complex application designed to please everyone, as a complete version has yet to be finalized. It is simply a high-performance editor instance built entirely in pure Rust. **In the world of computing, the shortest path is always the most invincible!** If you seek current compatibility and ease of use, please use AA; if you pursue ultimate freedom, performance, and community-driven maintenance, welcome to **GNA:AEFR**.
 
-*   **Unofficial & Fan-Made**: A high-performance, multi-platform, multi-threaded *Blue Archive* fan-creation editor crafted entirely in pure Rust.
-*   **No Game Engine**: We do not rely on Unity/Unreal; we drive the graphical interface directly using the lightweight `egui` library.
-*   **Cross-Platform Domination**: Natively supports GNU/Linux, Android, macOS, and Windows.
+*   **Unofficial Fan-made**: A high-performance, multi-platform, multi-threaded "Blue Archive" secondary creation editor built with pure Rust.
+*   **No Game Engine**: We do not rely on Unity/Unreal; the graphical interface is driven directly by the lightweight `egui` library.
+*   **Cross-platform Dominance**: Native support for GNU/Linux, Android, macOS, and Windows.
 
-### ✨ Current Features
-- [x] Dynamically change scene backgrounds
-- [x] Import and render up to 5 Spine skeletal animation files simultaneously
-- [x] Support standard Kivotos-style dialogue box rendering
-- [x] Switch skeletal animations (e.g., expressions, actions) in real-time
-- [x] Asynchronously load and play Background Music (BGM)
+### ✨ Currently Implemented
+- [x] Dynamic background scene switching.
+- [x] Concurrent import and rendering of up to 5 Spine skeletal animation files.
+- [x] Support for standard Kivotos-style dialog box rendering.
+- [x] Real-time animation switching (e.g., expressions, actions).
+- [x] Asynchronous loading and playback of Background Music (BGM).
 
-### 🎯 Roadmap
-- [ ] Linear editing system (Timeline)
-- [ ] Smooth transition and blending of character animations
-- [ ] Pop-up images within scenes (e.g., illustrations)
-- [ ] Scene transition effects (fade in/out, wipe, etc.)
-- [ ] Character expression bubbles
+### 🎯 Future Plans
+- [ ] Linear editing system (Timeline).
+- [ ] Smooth transitions and blending of character actions.
+- [ ] In-scene image pop-ups (e.g., illustrations/CG).
+- [ ] Scene transition effects (fade-in/out, wipes, etc.).
+- [ ] Character overhead emote bubbles.
 
-**We welcome any visionaries to join the development of GNU:AEFR!**
+**We welcome any aspiring developers to join the development of GNA:AEFR!**
 
 ---
 
@@ -47,101 +47,101 @@ For versions 0.8.3 and later (including it), only the **AGPL-3.0** license is al
 
 > "Release? Real hackers compile from source." ;-)
 
-Head to the [**Releases**](https://github.com/OxidizedSchale/GNU-AEFR/releases) page to download the source code, or grab the pre-compiled binaries for your platform.
+Go to the [**Releases**](https://github.com/OxidizedSchale/GNA-AEFR/releases) page to download the source code, or directly obtain the pre-compiled binaries (without instruction set optimization) for your platform.
 
-GNU:AEFR utilizes an interaction model combining **Graphical User Interface (GUI)** and **Command-Driven** inputs.
+**GNA:AEFR** employs a combination of **Graphical User Interface (GUI)** and **Command-Driven** interaction.
 
 *   **Desktop**: Graphical interface is recommended.
-*   **Mobile**: Currently, file importing can only be done via commands.
+*   **Mobile**: For file imports, command-driven interaction is currently required.
 
-Click the `[CMD]` button in the top-left corner of the interface to open the built-in debug console.
+Click the `[CMD]` button in the top-left corner of the interface to open the built-in debug console (with GUI support).
 
 ---
 
-## 📖 Command Reference
+## 📖 Command Reference Manual
 
-### 1. Visuals
+### 1. Scene and Visuals
 
 *   **Load Background**
     *   **Command**: `BG <image_path>`
-    *   **Desc**: Instantly switches the background image. Supports `.jpg`, `.png`, `.webp`.
+    *   **Description**: Instantly switch the background image. Supports `.jpg`, `.png`, and `.webp`.
     *   **Example**: `BG C:\Assets\BlueArchive\BG_Classroom.png`
 
-*   **Load Spine Character**
+*   **Load Character**
     *   **Command**: `LOAD <slot_ID> <.atlas_path>`
-    *   **Desc**: Loads a character into slots `0` to `4`. Upon success, the console prints the available animation list.
+    *   **Description**: Load a character into slots `0` through `4` (5 slots total). Supports automatic layout. Upon success, the console will print a list of available animations for that character.
     *   **Example**: `LOAD 0 D:\Assets\Shiroko\Shiroko_Home.atlas`
 
-### 2. Motion
+### 2. Animation and Performance
 
-*   **Change Animation**
+*   **Switch Animation**
     *   **Command**: `ANIM <slot_ID> <animation_name> [loop: true/false]`
-    *   **Desc**: `true` loops the animation, `false` plays it once. Names must match exactly.
+    *   **Description**: `true` for looping, `false` for a single playback. Animation names must match exactly (refer to the list printed upon loading).
     *   **Example**:
         ```bash
-        ANIM 0 Start_Idle_01 true    # Let Shiroko start her looping idle animation
-        ANIM 1 Attack_Normal false   # Have the character in slot 1 attack once
+        ANIM 0 Start_Idle_01 true    # Starts Shiroko's idle loop
+        ANIM 1 Attack_Normal false   # Slot 1 character attacks once
         ```
 
-### 3. Storytelling
+### 3. Script and Dialog
 
-*   **Show Dialogue**
+*   **Send Dialog**
     *   **Command**: `TALK <name>|<affiliation>|<content>`
-    *   **Desc**: Renders a standard dialogue box with typewriter effects. **Parameters must be separated by a pipe `|`.**
+    *   **Description**: Renders a standard Kivotos-style dialog box with a typewriter effect (click the dialog box to skip). **Parameters must be separated by the vertical bar `|`.**
     *   **Example**:
         ```bash
-        TALK Sunaookami Shiroko|Countermeasures Council|Sensei, should we go rob a bank?
-        TALK Arona|Schale|Sensei, please don't slack off during work hours!
+        TALK Shiroko|Abydos|Sensei, are we going to rob a bank?
+        TALK Arona|Schale|Sensei, please do not slack off during work hours!
         ```
 
-### 4. Audio
+### 4. Audio System
 
 *   **Play BGM**
     *   **Command**: `BGM <audio_path>`
-    *   **Desc**: Asynchronously loads and plays background music with seamless switching.
+    *   **Description**: Asynchronously loads and plays background music with seamless switching.
     *   **Example**: `BGM D:\Music\Unwelcome_School.mp3`
 
 *   **Stop Music**
     *   **Command**: `STOP`
-    *   **Desc**: Immediately stops the currently playing BGM.
+    *   **Description**: Immediately stops the currently playing BGM.
 
 ---
 
-### 💡 Pro Tips
+### 💡 Geek Tips
 
-*   **Path Issues**: Windows paths can be pasted directly, AEFR handles quotes automatically; on Android/Termux, use absolute paths.
-*   **Performance**: Thanks to the "Gentleman Scheduler," the UI thread remains silky smooth even fully loaded with 5 characters and BGM. Feel free to multitask boldly.
-*   **Logs**: All operation results (success/failure/animations) are printed in real-time in the console Log area.
+*   **Path Issues**: On Windows, it is recommended to copy the file path directly; AEFR automatically handles quotes (e.g., `"C:\Path"`). On Android/Termux, please use absolute paths, such as `/sdcard/Download/bg.png`.
+*   **Performance Monitoring**: Thanks to the "Gentleman Scheduler," the UI thread remains silky smooth even when all 5 slots are occupied and BGM is playing. Feel free to multitask.
+*   **Log Feedback**: All operation results (success/failure/available animations) are printed in real-time in the Log area of the console.
 
 ---
 
 ## 🤝 Contribution Guidelines
 
 <details>
-<summary><strong>Click to expand: Please read these guidelines before contributing</strong></summary>
+<summary><strong>Click to expand: Mandatory rules for contributing to GNA:AEFR</strong></summary>
 
 ### Tech Stack Purity
-This project insists on implementing 100% of its core business logic and architecture in **Rust**.
+This project insists that core business logic and architecture be implemented 100% in **Rust**.
 
-*   **As a rule, we reject** any PRs that introduce complex FFI interactions with C++ runtimes or frameworks (e.g., Qt, Unity, Unreal).
-*   **Exceptions**: Safe Rust wrappers around fully-functional low-level C system libraries (e.g., graphics, audio, filesystem) are allowed. In such cases:
-    *   Must prioritize mature community `-sys` bindings (e.g., `libc`, `openssl-sys`).
-    *   If writing `unsafe` FFI calls is necessary, you must strictly follow the `unsafe` code standards below and prove irreplaceability.
-    *   The ultimate goal is to encapsulate all `unsafe` calls within safe Rust APIs, completely transparent to upper-level applications.
+*   **Rejection of C++ Interop**: We generally refuse Pull Requests that introduce complex interactions (JNI/Complex FFI) with C++ runtimes or frameworks (e.g., Qt, Unity, Unreal) to maintain architectural purity and maintainability.
+*   **Exceptions**: Safe Rust wrappers for existing, functional, system-level C libraries (graphics, audio, filesystem foundations) are permitted. In such cases:
+    *   Community-maintained, mature `-sys` binding libraries must be prioritized.
+    *   If `unsafe` code for FFI calls is necessary, it must strictly adhere to the `unsafe` guidelines below and its necessity must be proven.
+    *   The ultimate goal is to encapsulate all `unsafe` calls within safe Rust APIs, making them transparent to the upper application layer.
 
-### `unsafe` Rules: The Blade of Performance Above Safety
-> `unsafe` is the "blade of performance" granted to developers by Rust beyond compile-time safety rules. The principle is: "Do not use unless necessary; when used, it must be foolproof."
+### Unsafe Guidelines: The Blade of Performance Above Safety
+> The `unsafe` keyword is the power granted by Rust to developers to perform necessary low-level operations outside the compiler's safety rules. This project views it as a "Blade of Performance Above Safety." The principle is: "Do not use it unless necessary; if used, it must be foolproof."
 
 **Core Principle: Proof of Necessity**
 
-Any `unsafe` block must be based on a justified reason that cannot be achieved via safe Rust. You must provide a concise "Proof of Necessity" in the comments above the `unsafe` block, including:
+The existence of any `unsafe` block must be justified by a valid reason that cannot be achieved through safe Rust. In a PR, you must provide a concise "Proof of Necessity" in the form of a comment above the `unsafe` block, including:
 
-1.  **Reason**: Why `unsafe` is absolutely necessary (e.g., calling specific C FFI functions, deterministic memory layout conversions).
-2.  **Irreplaceability**: Argue why it cannot be achieved with safe Rust standard or community libraries.
-3.  **Safety Boundaries**: Clearly define the invariants this `unsafe` block commits to maintaining. What do you "promise" the compiler?
+1.  **Reason**: Explicitly state why `unsafe` is required (e.g., calling specific C FFI functions, deterministic memory layout conversion, implementing self-referential structures, etc.).
+2.  **Irreplaceability**: Argue why the same functionality cannot be achieved using the Rust standard library or existing community crates.
+3.  **Safety Boundary**: Clearly define the invariants that this `unsafe` block promises to maintain. As a developer, what conditions are you "promising" the compiler are true to make this code logically safe?
 
-*Specific Requirements: Documented Comments*
-*   Every `unsafe` function, method, or block must have preceding comments.
+*Specific Requirement: Documentation Comments*
+*   Every `unsafe` function, method, or block must be preceded by a safety comment.
 
 </details>
 
@@ -150,30 +150,30 @@ Any `unsafe` block must be based on a justified reason that cannot be achieved v
 ## 🏛️ Architectural Philosophy
 
 <details>
-<summary><strong>Click to expand: Understand the hardcore low-level design driving GNU:AEFR</strong></summary>
+<summary><strong>Click to expand: The hardcore low-level design driving GNA:AEFR</strong></summary>
 
-### The "Gentleman Scheduler": Class Segregation at the Compute Level
-> In GNU:AEFR v0.8+, we introduced our proprietary "Gentleman Scheduler." We do not trust default OS schedulers, as they often sacrifice real-time rendering determinism for so-called "fairness."
+### Gentleman Scheduler: Class Isolation at the Computing Level
+> In GNA:AEFR v0.8+, we introduced our self-developed "Gentleman Scheduler." We do not trust the default scheduling of operating systems, as they often sacrifice the determinism of real-time rendering for so-called "fairness."
 
-*   **Core Principle: N-2 Strategy**
-    *   GNU:AEFR refuses to be a greedy CPU-devouring beast. The scheduler detects physical core count `N` and forcibly isolates `N-2` cores as a compute zone (Takes 1 on dual-core setups).
-    *   **1 Core** reserved for UI/Render (Main Thread), ensuring absolute smoothness even during compute spikes.
-    *   **1 Core** reserved for OS/Audio (Backstage), preventing BGM popping from CPU overloads.
-    *   Remaining cores are assigned to GNU:AEFR Workers for Spine math via the `Rayon` thread pool.
+*   **Core Guideline: N-2 Strategy**
+    *   GNA:AEFR refuses to be a "CPU-hogging beast." The scheduler automatically detects the number of physical cores `N` and forcibly isolates `N-2` cores as a dedicated computing zone (if only two cores/threads are available, AEFR will occupy one).
+    *   **1 Core** Reserved for UI/Render (Main Thread): Ensures UI remains smooth even during heavy computation.
+    *   **1 Core** Reserved for OS/Audio (Backstage): Acts as a "buffer zone" for the underlying system, completely eliminating audio crackling or stuttering caused by CPU saturation.
+    *   Remaining cores are allocated to **GNA:AEFR** Workers: Utilizing the Rayon thread pool for Spine bone skinning and physics calculations.
 
-*   **Why insist on a "Synchronous Blocking Model"?**
-    > Do not pitch us the cheap "non-blocking async" concepts found in Web development. In the philosophy of GNU:AEFR, "Synchronous" means order.
+*   **Why Insist on a "Synchronous Blocking Model"?**
+    > Do not try to sell us the cheap "non-blocking async" concepts common in Web development. In the philosophy of GNA:AEFR, "Synchronous" is "Order."
 
-    *   **No Screen Tearing**: The main thread synchronously awaits results during the Update phase to ensure every frame's visual elements align perfectly. (You don't want character art flying around, do you?)
-    *   **Work Stealing Mechanism**: On extreme low-core machines, the main thread actively participates in computation, squeezing out 100% of physical performance.
-    *   **Scheduler Warning**: Using `std::thread::spawn` for compute-heavy tasks is forbidden. All parallel tasks must dispatch via `AefrScheduler`. Violations lead to chaotic OS scheduling and betray the Rust aesthetics of GNU:AEFR.
+    *   **Zero Screen Tearing**: The main thread synchronously waits for calculation results during the Update phase. This ensures that bone positions, expressions, and physics effects are perfectly aligned in space for every frame.
+    *   **Work Stealing Mechanism**: Thanks to Rayon's hardcore implementation, in extreme cases with few cores (e.g., dual-core machines), the main thread will actively participate in calculations to ensure power utilization reaches 100% of the physical limit.
+    *   **Scheduler Warning**: Using `std::thread::spawn` for any computation-intensive task is strictly prohibited. All parallel tasks must be distributed via the `AefrScheduler`. Violators cause the system scheduling to fall into unordered competition—a betrayal of the GNA:AEFR Rust aesthetic.
 
-### GUI Rules
-*   UI components must strictly adhere to `egui`'s **Immediate Mode** philosophy; `React`-style proposals are not accepted.
+### GUI Improvement Rules
+*   UI components must follow the **Immediate Mode** philosophy of `egui`. Proposals following `React`-style declarative state management are not accepted.
 
 </details>
 
 ---
 
 ## ✉️ Contact Us
-*   **Author Email**: `ExtraShiningWonder@gmail.com`
+*   **Author Email**: ExtraShiningWonder@gmail.com
