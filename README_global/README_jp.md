@@ -1,6 +1,6 @@
 [简体中文](../README.md) | [English](./README_en.md) |[한국어](./README_kr.md)
 
-# GNU's Not Unix : AEFR's Eternal Freedom & Rust-rendered
+# GNA's Not AA : AEFR's Eternal Freedom & Rust-rendered
 
 > GNUに触発されましたが、公式のGNUプロジェクトではありません。「フリーソフトウェア財団 フリーソフトウェアディレクトリ」に申請済みです。
 
