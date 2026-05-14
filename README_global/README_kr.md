@@ -1,6 +1,6 @@
 [简体中文](../README.md) | [English](./README_en.md) | [日本語](./README_jp.md)
 
-# GNU's Not Unix : AEFR's Eternal Freedom & Rust-rendered
+# GNA's Not AA : AEFR's Eternal Freedom & Rust-rendered
 
 > GNU에서 영감을 받았지만, 공식 GNU 프로젝트는 아닙니다. '자유 소프트웨어 재단(FSF) 자유 소프트웨어 디렉토리'에 등재를 신청했습니다.
 
