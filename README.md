@@ -1,7 +1,7 @@
 [English](./README_global/README_en.md) | [日本語](./README_global/README_jp.md) | [한국어](./README_global/README_kr.md)
 
 <p align="center">
-  <img src="resources/comittee_logo.png" width="450" alt="GNA:AEFR comittee logo">
+  <img src="resources/committee_logo.png" width="450" alt="GNA:AEFR comittee logo">
   <br>
   <b>真正的黑客从源码编译，真正的自由在 AGPL 下呼吸</b>
 </p>
