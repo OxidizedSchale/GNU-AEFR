@@ -8,12 +8,12 @@ license = "AGPL-3.0-only"
 # build = "build.rs"
 
 [lib]
-name = "aefr_lib"
+name = "gna_lib"
 crate-type = ["cdylib", "rlib"]
 path = "src/main.rs"
 
 [[bin]]
-name = "aefr"
+name = "gna"
 path = "src/main.rs"
 
 [dependencies]
