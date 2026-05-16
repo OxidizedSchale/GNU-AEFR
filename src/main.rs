@@ -19,7 +19,7 @@
  * 本程序的 git 仓库应带有 AGPL3 许可证，请自行查看
  */
 
-// 全局禁用 Rust 警告 (建议后续逐步修复)
+// 全局禁用 Rust 的大傻逼警告 (后续逐步删去)
 #![allow(warnings)]
 
 use eframe::egui;
@@ -679,7 +679,7 @@ fn setup_custom_theme(ctx: &egui::Context) {
     visuals.window_fill = Color32::WHITE; 
     visuals.panel_fill = Color32::WHITE;  
     visuals.extreme_bg_color = Color32::WHITE; 
-    visuals.text_cursor.stroke = Stroke::new(2.0, Color32::BLACK); 
+    visuals.text_cursor = Stroke::new(2.0, Color32::BLACK); 
 
     let rounding = Rounding::same(4.0); 
 
