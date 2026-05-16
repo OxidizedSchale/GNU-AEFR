@@ -1,7 +1,7 @@
 [简体中文](../README.md) | [日本語](./README_jp.md) | [한국어](./README_kr.md)
 
 <p align="center">
-  <img src="resources/committee_logo.png" width="450" alt="GNA:AEFR comittee logo">
+  <img src="../resources/committee_logo.png" width="450" alt="GNA:AEFR comittee logo">
   <br>
   <b>Real hackers compile from source; real freedom breathes under AGPL.</b>
 </p>
